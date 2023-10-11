@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+/* Now you can use the 'Outfit' font in your CSS styles */
+body {
+  font-family: 'Outfit', sans-serif;
+  font-weight: 400;
+  width: 100vw;
+  height: 100vh;
+  background-color: hsl(212, 45%, 89%);
+}
+
+.container{
+display: flex;
+width: 100vw;
+height: 100vh;
+flex-direction: column;
+justify-content:center;
+align-items: center;
+align-content: center;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    border-radius: 15px;
+    width: 250px;
+    margin-bottom: 50px;
+    background-color: hsl(0, 0%, 100%);
+}
+
+h2 {
+  font-weight: 700;
+  color: hsl(218, 44%, 22%);
+  max-width: 250px;
+  font-size: 1.2em;
+  text-align: center;
+}
+
+p{
+ text-align: center;
+ max-width: 280px;
+ margin-top: 0px;
+ font-size: 14px;
+ color: hsl(220, 15%, 55%);
+}
+
+.qr-code{
+    width: 250px;
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
