@@ -28,6 +28,12 @@ align-content: center;
     width: 250px;
     margin-bottom: 50px;
     background-color: hsl(0, 0%, 100%);
+    box-shadow: 5px 5px 30px hsla(220, 15%, 55%, 0.5);
+    transition: transform 0.3s;
+  }
+
+.card:hover{
+  transform: translateY(-10px);
 }
 
 h2 {
